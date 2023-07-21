@@ -1,0 +1,181 @@
+
+html{
+    font-size: 10px;
+    font-family: 'Monoton', sans-serif;
+    display: flex;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+    text-decoration: none;
+
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(34, 40, 49)
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     margin: 50px auto; /* Adjust the margin as needed */
+    }
+    /* hero section */
+    #hero h1 {
+      font-size: 36px;
+      
+      margin-bottom: 20px;
+      color: rgb(181, 84, 0);
+    }
+    #hero p {
+      font-size: 24px;
+      color: rgb(238, 238, 238);
+      margin-left: 220px;
+      margin-right: 220px;
+      margin-bottom: 20px;
+      text-align: left;
+      
+    }
+    #hero .cta{
+        display: inline-block;
+        padding: 10px 30px;
+        color: rgb(238, 238, 238);
+        background-color: transparent;
+        border: 2px solid  rgb(238, 238, 238);
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-top: 40px;
+        transition: .3s ease  ;
+        transition-property: background-color, color;
+        
+    }
+    #hero button.cta {
+            position: absolute;
+      left: 450px;
+      bottom: 50px;
+          }
+    #hero .cta:hover
+    {
+        color: rgb(57, 62, 70);
+        background-color: rgb(181, 84, 0);
+    }
+    /* end of hero section */
+    /* keyfames */
+    @keyframes text_reveal_box {
+        50% {
+            width: 100%;
+            left:0;
+        }
+        100%{
+            width: 0;
+            left: 100%;
+        }
+    }
+    
+    @keyframes text_reveal_name{
+        100%{
+            color: white;
+            font-weight: 500px;
+        }
+    }
+    #hero .eta{
+        display: inline-block;
+        padding: 10px 30px;
+        color: rgb(57, 62, 70);
+        background-color: transparent;
+        border: 2px solid rgb(57, 62, 70);
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-top: 30px;
+        transition: .3s ease  ;
+        transition-property: background-color, color;
+        
+    }
+    #hero button.eta {
+            position: absolute;
+      right: 450px;
+      bottom: 50px;
+          }
+    #hero .eta:hover
+    {
+        color: rgb(57, 62, 70);
+        background-color: rgb(181, 84, 0);
+    }
+    /* end of hero section */
+    /* keyfames */
+    @keyframes text_reveal_box {
+        50% {
+            width: 100%;
+            left:0;
+        }
+        100%{
+            width: 0;
+            left: 100%;
+        }
+    }
+    
+    @keyframes text_reveal_name{
+        100%{
+            color: white;
+            font-weight: 500px;
+        }
+    }
+    
+    #hero .eta{
+        display: inline-block;
+        padding: 10px 30px;
+        color: grey;
+        background-color: transparent;
+        border: 2px solid white;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        margin-top: 30px;
+        transition: .3s ease  ;
+        transition-property: background-color, color;
+        
+    }
+    #hero .eta:hover
+    {
+        color: white;
+        background-color:rgb(181, 84, 0);
+    }
+    /* end of hero section */
+    /* keyfames */
+    @keyframes text_reveal_box {
+        50% {
+            width: 100%;
+            left:0;
+        }
+        100%{
+            width: 0;
+            left: 100%;
+        }
+    }
+    
+    @keyframes text_reveal_name{
+        100%{
+            color: white;
+            font-weight: 500px;
+        }
+    }
+    
+    #pred .here:div {
+        margin-bottom: 10px;
+      }
+    #pred .here:label {
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+      }
+ 
+
