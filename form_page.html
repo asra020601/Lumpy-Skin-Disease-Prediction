@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+   
+</head><body>    
+    <section id =pred>
+        <div class="here">
+    <h1>Please enter the following geographical details. </h1>
+    <form action = "/guest" method = "post">
+    <label>Monthly Cloud Cover in percent :  </label>
+    <input type = "text" name = "a"/>
+    <br><br>
+    <label>Diurnal Temperature Range in degrees
+     Celsius : </label>
+    <input type = "text" name = "b"/>
+       <br><br>
+    <label>Frost day frequency in a month : </label>
+    <input type = "text" name = "c"/>
+       <br><br>
+    <label>Potential evapotranspiration in
+    millimeters per day : </label>
+    <input type = "text" name = "d"/>
+        <br><br>
+    <label>Precipitation is any product of the
+    condensation of water vapor in the
+    atmosphere in millimeters per month : </label>
+    <input type = "text" name = "e"/> 
+       <br><br>
+    <label>Daily mean temperature in degrees
+    Celsius : </label>
+    <input type = "text" name = "f"/> 
+        <br><br>
+    <label>Temperature in degrees Celsius : </label>
+    <input type = "text" name = "g"/>
+        <br><br>
+    <label>Altitude of geographic location in
+    meters : </label>
+    <input type = "text" name = "h"/>
+       <br><br>
+    <label>Monthly average maximum and
+    minimum temperature in degrees
+    Celsius : </label>
+    <input type = "text" name = "i"/>
+        <br><br>
+    <label>Vapor pressure in hectopascals : </label>
+    <input type = "text" name = "j"/>
+        <br><br>
+    <label>Wet day frequency in days : </label>
+    <input type = "text" name = "k"/>
+        <br><br>
+    <label>Dominant land cover : </label>
+    <input type = "text" name = "l"/>
+        <br><br>
+    <label>Region :
+    
+    <select name = "m">
+    <option value = "Asia"> Asia </option>
+    <option value = "Africa"> Africa </option>
+    <option value = "Europe"> Europe </option>
+    </select>
+  
+     <button>
+        <input type="submit" onclick="C:/Users/asrah/Desktop/exp/templates/predict_page.html" > 
+    </button>
+    </label>
+</div>
+ </form>           
+
+</section>
+<style> body {
+  
+
+  
+    font-family: system-ui;
+    background: rgb(34, 40, 49);
+    color: white;
+    text-align: left;
+    margin: 25px 50px 75px 100px;
+ 
+
+    }
+    h1{
+        color:rgb(181, 84, 0)
+    }
+    form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  color: rgb(238, 238, 238);
+}
+
+input[type="text"],
+
+textarea {
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 550px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 24px;
+  background-color: transparent;
+  color: rgb(57, 62, 70);
+  border: rgb(57, 62, 70);
+  cursor: pointer;
+}
+
+   
+  
+  </style>
+</body>
+</html>
